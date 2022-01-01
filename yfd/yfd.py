@@ -58,7 +58,7 @@ class Ydk(object):
             self.longitude = 112.919075
 
     def struct_ques(self):
-        if "湖南工商大学" not in self.address:
+        if "广东财经大学" not in self.address:
             out = [
                 {
                     "subjectType": "signleSelect",
